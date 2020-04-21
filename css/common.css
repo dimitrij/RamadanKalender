@@ -197,6 +197,21 @@ main {
 	position: relative;
 }
 
+#body {
+	background-image: url(/img/ramadankalender_2020.jpg);
+	background-size: cover;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	opacity: 0.4;
+	}
+
+
 .js .calendar-wrap {
 	-webkit-flex: 1;
 	-ms-flex: 1;
